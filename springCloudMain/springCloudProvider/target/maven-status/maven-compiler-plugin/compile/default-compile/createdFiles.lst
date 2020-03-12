@@ -1,0 +1,5 @@
+zla\springCloudProvider\dao\UserDao.class
+zla\springCloudProvider\service\UserServiceImpl.class
+zla\springCloudProvider\service\IUserService.class
+zla\springCloudProvider\ProviderApplication.class
+zla\springCloudProvider\controller\UserController.class
