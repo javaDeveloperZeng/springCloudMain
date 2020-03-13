@@ -1,4 +1,5 @@
 zla\springCloudProvider\dao\UserDao.class
+zla\springCloudProvider\configuer\ServerConfig8001.class
 zla\springCloudProvider\service\UserServiceImpl.class
 zla\springCloudProvider\service\IUserService.class
 zla\springCloudProvider\ProviderApplication.class

@@ -2,6 +2,8 @@ package zla.springCloudProvider.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
+import zla.springCloudProvider.configuer.ServerConfig8001;
 import zla.springCloudProvider.service.IUserService;
 import zla.springCloudapi.model.user.UserEntity;
 
@@ -14,9 +16,14 @@ import java.util.List;
  **/
 @RestController
 public class UserController {
+    private static final String REST_URL_PREFIX = "http://user-consumer";
 
     @Autowired
     private IUserService userService;
+    @Autowired
+    private ServerConfig8001 serverConfig8001;
+    @Autowired
+    private RestTemplate restTemplate;
 
     @PostMapping("/user/createUser")
     public boolean createUser(@RequestBody UserEntity user){
@@ -31,6 +38,16 @@ public class UserController {
     @GetMapping("/user/listUser")
     public List<UserEntity> listUser(){
         return userService.listUser();
+    }
+
+    @GetMapping("/user/getPort")
+    public String  getPort(){
+        return "当前端口为："+serverConfig8001.getServerPort()+"";
+    }
+
+    @RequestMapping("/user/consumer/getPort")
+    public String getPortConsumer(){
+        return  restTemplate.getForObject(REST_URL_PREFIX+"//consumer/getPort",String.class);
     }
 }
 

@@ -13,7 +13,7 @@ import zla.springCloudConsumer.configuer.RibbonConfig;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-@RibbonClient(name="service-hi",configuration= RibbonConfig.class)
+@RibbonClient(name="user-provider",configuration= RibbonConfig.class)
 public class ApplicationConsumer
 {
     public static void main( String[] args )

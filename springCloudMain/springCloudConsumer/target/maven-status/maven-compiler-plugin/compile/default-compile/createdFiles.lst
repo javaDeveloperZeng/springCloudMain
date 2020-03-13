@@ -1,3 +1,4 @@
 zla\springCloudConsumer\configuer\BeanConfiguer.class
 zla\springCloudConsumer\controller\UserController.class
 zla\springCloudConsumer\ApplicationConsumer.class
+zla\springCloudConsumer\configuer\RibbonConfig.class

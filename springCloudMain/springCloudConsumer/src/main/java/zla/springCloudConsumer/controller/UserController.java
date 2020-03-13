@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+import zla.springCloudConsumer.configuer.ServerConfig;
 import zla.springCloudapi.model.user.UserEntity;
 
 import java.util.List;
@@ -27,6 +28,9 @@ public class UserController {
     @Autowired
     private RestTemplate restTemplate;
 
+    @Autowired
+    private ServerConfig serverConfig;
+
     @RequestMapping(value = "/consumer/user/add")
     public boolean add(UserEntity user) {
         return restTemplate.postForObject(REST_URL_PREFIX + "/user/createUser", user, Boolean.class);
@@ -41,6 +45,17 @@ public class UserController {
     @RequestMapping(value = "/consumer/user/listUser")
     public List<UserEntity> list() {
         return restTemplate.getForObject(REST_URL_PREFIX + "/user/listUser", List.class);
+    }
+
+    @SuppressWarnings("unchecked")
+    @RequestMapping(value = "/consumer/user/getPort")
+    public String  getPort(){
+        return restTemplate.getForObject(REST_URL_PREFIX + "/user/getPort", String.class);
+    }
+
+    @RequestMapping(value="/consumer/getPort")
+    public String getPortConsumer(){
+        return "consumer端口为："+serverConfig.getServerPort();
     }
 
 }

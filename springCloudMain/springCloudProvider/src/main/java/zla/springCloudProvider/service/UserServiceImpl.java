@@ -19,7 +19,7 @@ import java.util.List;
  *@Date 2020/3/12 12:34
  **/
 @Service
-public class UserServiceImpl implements IUserService {
+ class UserServiceImpl implements IUserService {
 
     @Autowired
     private UserDao userDao;
