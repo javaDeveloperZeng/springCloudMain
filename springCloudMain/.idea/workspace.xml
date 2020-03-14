@@ -2,45 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb19aa75-7a5f-4d43-8676-c3472d9cd8d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springCloudConsumer/src/main/java/zla/springCloudConsumer/configuer/ServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springCloudProvider/src/main/java/zla/springCloudProvider/configuer/BeanConfiguer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springCloudProvider/src/main/java/zla/springCloudProvider/configuer/RibbonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springCloudProvider/src/main/java/zla/springCloudProvider/configuer/ServerConfig8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springCloudConsumer/src/main/java/zla/springCloudConsumer/service/FeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springCloudConsumer/src/main/java/zla/springCloudConsumer/service/FeignServiceFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springCloudZuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springCloudZuul/springCloudZuul.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springCloudZuul/src/main/java/zls/springCloudZuul/ApplicationZuul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springCloudZuul/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springCloudConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudConsumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudConsumer/src/main/java/zla/springCloudConsumer/ApplicationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudConsumer/src/main/java/zla/springCloudConsumer/ApplicationConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudConsumer/src/main/java/zla/springCloudConsumer/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudConsumer/src/main/java/zla/springCloudConsumer/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springCloudConsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudConsumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springCloudConsumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudConsumer/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudConsumer/target/classes/zla/springCloudConsumer/ApplicationConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudConsumer/target/classes/zla/springCloudConsumer/ApplicationConsumer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudConsumer/target/classes/zla/springCloudConsumer/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudConsumer/target/classes/zla/springCloudConsumer/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudConsumer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudConsumer/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudConsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudConsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudConsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudConsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudConsumer/target/springCloudConsumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudConsumer/target/springCloudConsumer-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudEureka/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudEureka/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudEureka/target/springCloudEureka-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudEureka/target/springCloudEureka-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudProvider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springCloudProvider/src/main/java/zla/springCloudProvider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/src/main/java/zla/springCloudProvider/ProviderApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudProvider/src/main/java/zla/springCloudProvider/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/src/main/java/zla/springCloudProvider/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudProvider/src/main/java/zla/springCloudProvider/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/src/main/java/zla/springCloudProvider/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudProvider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springCloudProvider/target/classes/META-INF/springCloudProvider.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudProvider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springCloudProvider/target/classes/zla/springCloudProvider/ProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/classes/zla/springCloudProvider/ProviderApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudProvider/target/classes/zla/springCloudProvider/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/classes/zla/springCloudProvider/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudProvider/target/classes/zla/springCloudProvider/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/classes/zla/springCloudProvider/service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudProvider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudProvider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudProvider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudProvider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudProvider/target/springCloudProvider-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springCloudProvider/target/springCloudProvider-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/springCloudProvider-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springCloudProvider/target/springCloudProvider-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/springCloudProvider-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudProvider/target/surefire-reports/TEST-zla.springCloudProvider.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/surefire-reports/TEST-zla.springCloudProvider.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springCloudProvider/target/surefire-reports/zla.springCloudProvider.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudProvider/target/surefire-reports/zla.springCloudProvider.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudapi/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudapi/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springCloudapi/target/springCloudapi-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springCloudapi/target/springCloudapi-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -87,11 +89,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springCloudProvider/src/main/java/zla/springCloudProvider/configuer" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/springCloudZuul/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springCloudZuul/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -102,6 +105,7 @@
       <recent name="zla.springCloudProvider.controller.configuer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\gitRepository\springCloudMain\springCloudMain\springCloudZuul\src\main\resources" />
       <recent name="H:\gitRepository\springCloudMain\springCloudMain\springCloudProvider\src\main\java\zla\springCloudProvider\configuer" />
       <recent name="H:\gitRepository\springCloudMain\springCloudMain" />
     </key>
@@ -145,15 +149,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springCloudProvider (1)" />
+    <configuration name="ApplicationZuul (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springCloudZuul" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zla.springCloudProvider.*" />
+          <option name="PATTERN" value="zls.springCloudZuul.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="zla.springCloudProvider.ProviderApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="zls.springCloudZuul.ApplicationZuul" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationZuul" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springCloudZuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.zls.springCloudZuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.zls.springCloudZuul.ApplicationZuul" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,10 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApplicationZuul (1)" />
         <item itemvalue="Spring Boot.ApplicationConsumer" />
         <item itemvalue="Spring Boot.ProviderApplication" />
+        <item itemvalue="Spring Boot.ApplicationZuul" />
         <item itemvalue="Spring Boot.ApplicationEureka" />
-        <item itemvalue="Spring Boot.ProviderApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +209,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584022254606</updated>
       <workItem from="1584022257776" duration="5361000" />
-      <workItem from="1584100671907" duration="4569000" />
+      <workItem from="1584100671907" duration="5003000" />
+      <workItem from="1584145047749" duration="9725000" />
     </task>
     <servers />
   </component>

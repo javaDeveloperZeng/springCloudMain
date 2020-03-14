@@ -2,5 +2,7 @@ zla\springCloudProvider\dao\UserDao.class
 zla\springCloudProvider\configuer\ServerConfig8001.class
 zla\springCloudProvider\service\UserServiceImpl.class
 zla\springCloudProvider\service\IUserService.class
+zla\springCloudProvider\configuer\RibbonConfig.class
+zla\springCloudProvider\configuer\BeanConfiguer.class
 zla\springCloudProvider\ProviderApplication.class
 zla\springCloudProvider\controller\UserController.class

@@ -9,9 +9,11 @@ package zla.springCloudConsumer.controller;/**
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 import zla.springCloudConsumer.configuer.ServerConfig;
+import zla.springCloudConsumer.service.FeignService;
 import zla.springCloudapi.model.user.UserEntity;
 
 import java.util.List;
@@ -30,6 +32,9 @@ public class UserController {
 
     @Autowired
     private ServerConfig serverConfig;
+
+    @Autowired
+    FeignService feignService;
 
     @RequestMapping(value = "/consumer/user/add")
     public boolean add(UserEntity user) {
@@ -56,6 +61,10 @@ public class UserController {
     @RequestMapping(value="/consumer/getPort")
     public String getPortConsumer(){
         return "consumer端口为："+serverConfig.getServerPort();
+    }
+    @RequestMapping(value="/consumer/user/hello")
+    public String hello(@RequestParam("name") String name){
+        return feignService.hello(name);
     }
 
 }

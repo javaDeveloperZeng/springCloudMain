@@ -13,6 +13,8 @@
         <module>springCloudProvider</module>
         <module>springCloudConsumer</module>
         <module>springCloudEureka</module>
+        <module>springCloudZuul</module>
+        <module>springCloudZuul</module>
     </modules>
 
     <properties>

@@ -10,6 +10,7 @@
         <module name="springCloudEureka" />
         <module name="springCloudapi" />
         <module name="springCloudConsumer" />
+        <module name="springCloudZuul" />
         <module name="springCloudProvider" />
       </profile>
     </annotationProcessing>

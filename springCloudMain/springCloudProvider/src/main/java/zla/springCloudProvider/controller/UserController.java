@@ -49,5 +49,9 @@ public class UserController {
     public String getPortConsumer(){
         return  restTemplate.getForObject(REST_URL_PREFIX+"//consumer/getPort",String.class);
     }
+    @RequestMapping(value = "user/hello" , method = RequestMethod.GET)
+    public String hello(@RequestParam("name") String name){
+        return "调用user"+name;
+    };
 }
 
